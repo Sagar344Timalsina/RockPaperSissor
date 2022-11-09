@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.container{
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(78, 76, 76);
+    border-radius: 2rem;
+    margin-top: 15rem;
+    padding: 2rem;
+}
+.card1,.card2,.card3{
+    width:25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    font-size: 3em;
+    background-color: aquamarine;
+}
+#rock,#sissor,#paper{
+    vertical-align: middle;
+    line-height: 1%;
+}
+button{
+    border: 0 solid;
+    cursor: pointer;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,26 @@
     <title>Rock Sissor Paper</title>
     <link rel="stylesheet" href="../RockSissorPaper/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <button class="card1" id="rock">   ✊    </button>
-        <button class="card2" id="paper">    ✋   </button>
-        <button class="card3" id="sissor">    ✌   </button>
+    <div class="card">
+        <div class="container">
+            <button class="card1" value="Rock" id="rock" " > ✊ </button>
+            <button class=" card1" value="Paper" id="paper" "> ✋ </button>
+            <button class=" card1" value="Sissor" id="sissor" "> ✌ </button>
+        </div>
+        <div class=" below">
+                <div class="show">
+                    <div id="text1"></div>
+                    <div id="text2"></div>
+                    <div id="text3"></div>
+                </div>
+                <div class="stop">
+                    <button class="card4" value="0" id="stop" onclick="stopGame()"> 🛑 </button>
+                </div>
+        </div>
     </div>
-    
+    <script src="../RockSissorPaper/script.js" />
 </body>
+
 </html>

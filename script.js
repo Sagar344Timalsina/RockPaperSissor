@@ -74,11 +74,11 @@ function gamePlaying() {
 
 gamePlaying();
 
-function stopGame() {
-scores['player1']=0;
-scores['computer']=0;
-text1Div.innerText='';
-text2Div.innerText='';
-text3Div.innerText='';
+function stopGames() {
+    scores['player1']=0;
+    scores['computer']=0;
+    text1Div.innerText='';
+    text2Div.innerText='';
+    text3Div.innerText='';
 
 }

@@ -1,16 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
+    color: aliceblue;
 }
-.card{
+
+.card {
     width: 25vw;
     height: 30vh;
     /* display: flex;
@@ -21,27 +24,19 @@ body{
     margin-top: 15rem;
     padding: 2rem;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-/* .container{
-    width: 25vw;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(78, 76, 76);
-    border-radius: 2rem;
-    margin-top: 15rem;
-    padding: 2rem;
-} */
-.show{
+
+.show {
     font-size: x-large;
 }
-.card1{
-    width:25%;
+
+.card1 {
+    width: 25%;
     height: 25%;
     display: flex;
     justify-content: center;
@@ -50,22 +45,28 @@ body{
     font-size: 3em;
     background-color: aquamarine;
 }
-#rock,#sissor,#paper ,#stop{
+
+#rock,
+#sissor,
+#paper,
+#stop {
     vertical-align: middle;
     line-height: 80px;
     border: 0 solid;
     cursor: pointer;
 
 }
-.below{
+
+.below {
     padding-top: 3rem;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-.card4{
-    width:6rem;
+
+.card4 {
+    width: 6rem;
     height: 6rem;
     display: flex;
     justify-content: center;
